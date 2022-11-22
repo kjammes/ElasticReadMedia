@@ -1,0 +1,5 @@
+server:
+  port: 8081
+elastic:
+  username: elastic
+  password: Kc1w7jisVZFAs8-4Kvm8
