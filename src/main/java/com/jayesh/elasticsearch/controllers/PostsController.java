@@ -25,8 +25,4 @@ public class PostsController {
         return postsService.addSinglePost(new Post(1L, "War of art", "This is some short description"));
     }
 
-    @GetMapping("/{id}")
-    List<Post> getPostById(@PathVariable Long id) {
-        return postsService.getPostById(id);
-    }
 }
